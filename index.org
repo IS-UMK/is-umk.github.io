@@ -1,4 +1,8 @@
 # -*- org-html-postamble: nil; -*- 
+#+TITLE: Szkoła Rzeczypospolitych
+#+LANGUAGE: pl
+#+STARTUP: overview
+#+STARTUP: hideblocks
 
 #+begin_src shell :exports code :eval no
   echo jestem?
