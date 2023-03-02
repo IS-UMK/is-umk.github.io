@@ -3,6 +3,7 @@
 #+LANGUAGE: pl
 #+STARTUP: overview
 #+STARTUP: hideblocks
+#+HTML_HEAD: <style type="text/css"> body {background-color: #eff0f1}</style>
 
 #+begin_src shell :exports code :eval no
   echo jestem?
