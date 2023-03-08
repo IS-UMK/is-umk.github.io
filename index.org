@@ -6,5 +6,28 @@
 #+HTML_HEAD: <style type="text/css"> body {background-color: #eff0f1}</style>
 
 #+begin_src shell :exports code :eval no
-  echo jestem?
+  echo <2022-06-03 pią 11:50> jestem?
 #+end_src
+#+begin_src shell :exports code :eval no
+  echo <2023-03-06 pon 12:00> Połączenie zajęć „Języki programowania” (WFAiIS) z „Programowanie I” (WMiI)
+#+end_src
+
+#+begin_src dot :file wfaiis_wmii.png :eval no
+  digraph Plan {
+	  rankdir=LR;
+	  size="12,5"
+	  node [shape = circle, width =1.5, fontsize=20, penwidth=1.5]; 
+	  edge [arrowsize=1.5, penwidth=1.5];
+	  nodesep=1;
+	  ranksep=0.5;
+	  WFAiIS -> WMiI
+	  WMiI -> WFAiIS
+
+  }		
+#+end_src
+
+#+RESULTS:
+[[file:wfaiis_wmii.png]]
+
+
+
