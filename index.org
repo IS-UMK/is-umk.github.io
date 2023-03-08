@@ -9,7 +9,7 @@
   echo <2022-06-03 pią 11:50> jestem?
 #+end_src
 #+begin_src shell :exports code :eval no
-  echo <2023-03-06 pon 12:00> Połączenie zajęć „Języki programowania” (WFAiIS) z „Programowanie I” (WMiI)
+  echo <2023-03-06 pon 14:00> Połączenie zajęć „Języki programowania” (WFAiIS) z „Programowanie I” (WMiI)
 #+end_src
 
 #+begin_src dot :file wfaiis_wmii.png :eval no
